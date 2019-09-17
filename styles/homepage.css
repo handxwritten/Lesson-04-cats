@@ -1,5 +1,9 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-  height: 300px;
+  height: 150px;
   background-color: #02c2de;
   display: flex;
   flex-wrap: wrap-reverse;
@@ -8,6 +12,53 @@
 }
 .important {
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
+.h1 {
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 60px;
+}
+.ul {
+background-color: #b3b3cc;
+height: 180px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.p {
+  margin: 0 1.5%;
+  width: 60%;
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+a {
+  display: inline-block;
+  padding: 2px;
+  background-color: #b3b3cc;
+}
+.h3 {
+  color: #02c2de;
+  font-family: Roboto, system-ui, sans-serif;
+}
+.h4 {
+  color: #02c2de;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  padding-top: 50px;
+  width: auto;
+}
+.rightcolumn {
+  font-family: sans-serif;
+  float: right;
+  width: 20%;
+  position: sticky;
+  padding-right: 30px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
