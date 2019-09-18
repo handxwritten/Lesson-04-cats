@@ -55,3 +55,8 @@ a {
   float: right;
   width: 20%;
 }
+.footer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
