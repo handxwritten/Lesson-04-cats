@@ -2,23 +2,87 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  height: 150px;
+  height: 300px;
   background-color: #02c2de;
   display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-  align-items: center;
 }
 .important {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: white;
 }
 .h1 {
   font-size: 50px;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-top: 60px;
+  justify-content: center;
+}
+.ul {
+background-color: #b3b3cc;
+height: 180px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.p {
+  margin: 0 5.0%;
+  width: 75%;
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+.nav a {
+  display: inline-block;
+  padding: 2px;
+  background-color: #b3b3cc;
+}
+.a {
+  display: inline-block;
+  padding: 2px;
+  background-color: white;
+}
+.h3 {
+  color: #02c2de;
+  font-family: Roboto, system-ui, sans-serif;
+}
+.h4 {
+  color: #02c2de;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 300px;
+  padding-top: 50px;
+  width: auto;
+}
+.aside {
+  position: absolute;
+  right:0;
+  top: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 20%;
+}
+a {
+  color: blue;
+}
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  height: 300px;
+  background-color: #02c2de;
+  display: flex;
+}
+.important {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.h1 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 60px;
+  justify-content: center;
 }
 .ul {
 background-color: #b3b3cc;
@@ -32,11 +96,6 @@ padding-bottom: 5px;
   padding-top: 10px;
   font-family: sans-serif;
 }
-a {
-  display: inline-block;
-  padding: 2px;
-  background-color: #b3b3cc;
-}
 .h3 {
   color: #02c2de;
   font-family: Roboto, system-ui, sans-serif;
@@ -49,14 +108,19 @@ a {
   padding-top: 50px;
   width: auto;
 }
-.aside {
-  display: block;
-  font-family: sans-serif;
-  float: right;
-  width: 20%;
-}
 .footer {
-  position: relative;
-  text-align: center;
+  background: url("styles/images/lesson04-mock5-cat-logo.png");
+  background-color: #CCCCCC;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
+  text-align: center;
+}
+.centered {
+  padding-right: 30px;
+  color: white;
+  text-align: center;
+  display:inline-block;
+  margin: 0 auto;
 }
