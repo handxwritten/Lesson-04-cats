@@ -109,18 +109,15 @@ padding-bottom: 5px;
   width: auto;
 }
 .footer {
-  background: url("styles/images/lesson04-mock5-cat-logo.png");
-  background-color: #CCCCCC;
-  height: 200px;
+  background-image: url("images/lesson04-mock4-footer-image.jpg");
+  height: 250px;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
-  text-align: center;
 }
 .centered {
-  padding-right: 30px;
   color: white;
   text-align: center;
   display:inline-block;
-  margin: 0 auto;
+  margin: 3% auto;
+  width: 100vw;
 }
