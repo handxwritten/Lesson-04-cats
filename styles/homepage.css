@@ -120,3 +120,8 @@ padding-bottom: 5px;
   margin: 3% auto;
   width: 100vw;
 }
+.profile {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
