@@ -21,6 +21,7 @@ background-color: #b3b3cc;
 height: 180px;
 padding-top: 5px;
 padding-bottom: 5px;
+margin: auto;
 }
 .p {
   margin: 0 5.0%;
@@ -109,6 +110,7 @@ padding-bottom: 5px;
 .footer {
   background-image: url("images/lesson04-mock4-footer-image.jpg");
   height: 250px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
